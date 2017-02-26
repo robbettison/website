@@ -1,0 +1,27 @@
+body {
+  background-color:black;
+  font-family: monospace;
+}
+
+h1 {
+  position: absolute;
+  color: red;
+  left: 100px;
+  font-size: 100%;
+}
+
+p {
+  color:white;
+  position: absolute;
+  left:105px;
+  top:50px;
+}
+
+p strong, dfn {
+  color: blue;
+}
+
+#wave {
+  position:absolute;
+  left:0;
+}
