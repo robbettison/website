@@ -1,27 +1,54 @@
 body {
-  background-color:black;
+  background-color:  DarkCyan;
   font-family: monospace;
 }
 
 h1 {
+  font-weight: 900;
+  font-family: fantasy;
+  text-decoration: underline;
   position: absolute;
-  color: red;
-  left: 100px;
-  font-size: 100%;
+  color: Gold;
+  left: 40%;
+  font-size: 200%;
+}
+
+h2 {
+  color:white;
+  position: absolute;
+  left:40%;
+  top:75px;
 }
 
 p {
-  color:white;
-  position: absolute;
-  left:105px;
-  top:50px;
-}
-
-p strong, dfn {
   color: blue;
 }
 
 #wave {
   position:absolute;
-  left:0;
+  left:0%;
+}
+
+/*ul {
+  margin-top:200px;
+  margin-left: 35%;
+  margin-right: 30%;
+  background-color: #333;
+}
+
+li {
+  display: inline-flex;
+  width 60px;
+}*/
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
 }

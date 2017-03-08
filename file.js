@@ -6,11 +6,11 @@ var b = document.querySelector("dfn");
 b.addEventListener('click', popup);
 var wave = document.querySelector("#wave");
 wave.addEventListener('click', move);
-var title=document.querySelector("h1");
-title.addEventListener('click', enlargen);
+/*var title=document.querySelector("h1");
+title.addEventListener('click', enlargen);*/
 }
 
-function enlargen(event) {
+/*function enlargen(event) {
   var top = 0
   function frame() {
     console.log('here');
@@ -23,7 +23,7 @@ function enlargen(event) {
     }
   }
   var id = setInterval(frame, 10);
-}
+}*/
 
 function popup(event) {
   alert("Wavey vibes..");
