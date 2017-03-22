@@ -1,6 +1,6 @@
 // Minimal server: log request details and request body.
 var HTTP = require('http');
-start(8005);
+start(8004);
 
 // Provide a service to localhost only.
 function start(port) {
@@ -24,7 +24,7 @@ function handle(request, response) {
     console.log("Body:", body);
     var QS = require("querystring");
     var params = QS.parse(body);
-    console.log(params.pet, params.car);
+    console.log(params.Name, params.user, params.password, params.password1);
     reply(response);
   }
 }
