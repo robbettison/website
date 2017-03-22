@@ -4,20 +4,20 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-weight: 900;
   font-family: fantasy;
   text-decoration: underline;
-  position: absolute;
+  /*position: absolute;*/
   color: Gold;
-  left: 40%;
   font-size: 200%;
 }
 
 h2 {
   color:white;
   position: absolute;
-  left:40%;
-  top:75px;
+  /*left:40%;*/
+  /*top:75px;*/
 }
 
 p {
@@ -41,14 +41,21 @@ li {
   width 60px;
 }*/
 
+h3{
+  text-align: center;
+}
+
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 50px;
+  padding: 50px;
   overflow: hidden;
-  background-color: #333;
+  background-color: Gold;
 }
 
 li{
-  float: left;
+  display:inline-block;
+  padding: 20px;
+  margin: 10px;
+  /*float: left;*/
 }
