@@ -2,10 +2,10 @@
 addEventListener('load', start);
 
 function start() {
-var b = document.querySelector("dfn");
-b.addEventListener('click', popup);
-var wave = document.querySelector("#wave");
-wave.addEventListener('click', move);
+/*var b = document.querySelector("dfn");
+b.addEventListener('click', popup);*/
+/*var wave = document.querySelector("#wave");
+wave.addEventListener('click', move);*/
 /*var title=document.querySelector("h1");
 title.addEventListener('click', enlargen);*/
 }
