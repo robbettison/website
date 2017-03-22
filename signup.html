@@ -5,7 +5,7 @@
 <script src="file.js"></script>
 <link href="file.css" rel="stylesheet" type="text/css"/>
 <meta charset="UTF-8"/>
-<title>RapRoyalRumble</title>
+<title>Dare2Compare</title>
 </head>
 <body>
 <!--<img id="wave" src="blue.png" alt="wave"/>-->
@@ -19,22 +19,28 @@
     <li><a href="vote.html">Vote</a></li>
   </ul>
 </h3>
+<!--
+The action attribute defines the action to be performed when the form is submitted.
+Normally, the form data is sent to a web page on the server when the
+user clicks on the submit button.
+In the example above, the form data is sent to a page on the server
+ called "/action_page.php".
+ This page contains a server-side script that handles the form data:
+-->
 
 <div class="form">
-  <form action="_self">
+  <form action="/action_page.php">
+    <br><br><br><br>
    Name:<br>
-   <input type="text" name="Name"><br><br>
+   <input type="text" name="Name"><br><br><br><br>
    Username:<br>
-   <input type="text" name="user"><br><br>
-   Email adress:<br>
-   <input type="text" name="mail"><br><br>
-   Date of birth:<br>
-   <input type="date" name="birthday"><br><br>
+   <input type="text" name="user"><br><br><br><br>
    Password: <br>
-   <input type="password" name="password"><br><br>
+   <input type="password" name="password"><br><br><br><br>
+   Confirm Password: <br>
+   <input type="password" name="password1"><br><br><br><br>
    <input type="submit" value="Submit">
   </form>
-</div>
 
 
 </body>
