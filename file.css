@@ -1,15 +1,16 @@
 body {
-  background-color:  White;
+  background-color:  black;
   font-family: monospace;
+  color: white;
 }
 
 h1 {
   text-align: center;
   font-weight: 900;
-  font-family: fantasy;
+  /*font-family: fantasy;*/
   text-decoration: underline;
   /*position: absolute;*/
-  color: #19386b;
+  color: white;
   font-size: 200%;
 }
 
@@ -29,10 +30,6 @@ p {
   left:0%;
 }
 
-form {
-  text-align:center;
-}
-
 h3{
   text-align: center;
   margin: 0px;
@@ -50,6 +47,7 @@ ul{
 
 li {
   list-style-type: none;
+  border:thin solid #ffffff;
   margin: 0px;
   padding: 20px;
   /*overflow: hidden;*/
@@ -66,4 +64,61 @@ li a {
 
 li a:hover {
     background-color: #88b4fc;
+}
+
+
+/*sign up form*/
+input {
+  background-color: yellow;
+  font-weight: bold;
+}
+.form {
+  color: white;
+  text-align:center;
+}
+
+/*voting page*/
+div#hippo {
+  background-image:url("bl.png") ;
+  /*background-color: purple;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table#battles, th, td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+table#battles th {
+  font-size: 300%;
+}
+
+table#battles {
+  width:75%;
+  margin:auto;
+  padding 50px;
+  background-color: hotpink;
+}
+
+table#battles tr:nth-child(even) {
+    background-color: red;
+}
+table#battles tr:nth-child(odd) {
+    background-color:blue;
+}
+table#battles a {
+  color:black;
+  font-weight: bolder;
+  font-size: 200%;
+}
+table#battles a:hover {
+  background-color: hotpink;
+}
+p#intro {
+  color:hotpink;
+  text-align: center;
+  text-shadow: blue;
+  font-size: 200%;
 }

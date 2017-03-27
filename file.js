@@ -28,7 +28,6 @@ title.addEventListener('click', enlargen);*/
 function popup(event) {
   alert("Wavey vibes..");
   console.log('wave');
-
 }
 
 function move(event) {
