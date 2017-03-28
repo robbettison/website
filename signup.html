@@ -27,9 +27,22 @@ In the example above, the form data is sent to a page on the server
 -->
 <br/><br/><br/>
 <p id="help"></p>
+<p>
+  Existing users:
+</p>
+<div class="form">
+  <form method="post" action="http://localhost:4555/">
+    Username:<input type="text" name="user" data-help="Your unique username!"/><br/>
+    Password:<input type="password" name="password1"/><br/>
+    <input type="submit" value="Log in"/>
+  </form>
+</div>
+<p>
+  New users:
+</p>
 <div class="form">
   <!--<legend>Who are you?</legend>-->
-  <form method="post" action="http://localhost:4513/">
+  <form method="post" action="http://localhost:4555/">
    Name:<input type="text" name="name" data-help="Your full name!"/><br/>
    <!--Upload an image as your avatar:<input type="file" name="avatar" /><br/>-->
    Username:<input type="text" name="user" data-help="Your unique username!"/><br/>

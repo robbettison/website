@@ -4,8 +4,8 @@ addEventListener('load', start);
 function start() {
 var b = document.querySelector("body");
 //"night and day mode"
-b.addEventListener("keydown", nightmode);
-b.addEventListener("keyup", daymode);
+//b.addEventListener("keydown", nightmode);
+//b.addEventListener("keyup", daymode);
 //allows drawing of dots
 addEventListener("click", whiteboard);
 //gives help for filling form out
