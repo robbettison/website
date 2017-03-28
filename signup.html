@@ -26,18 +26,20 @@ In the example above, the form data is sent to a page on the server
  This page contains a server-side script that handles the form data:
 -->
 <br/><br/><br/>
+<p id="help"></p>
 <div class="form">
   <!--<legend>Who are you?</legend>-->
-  <form method="post" action="http://localhost:8157/" enctype="multipart/form-data">
-   Name:<input type="text" name="name"/><br/>
-   Upload an image as your avatar:<input type="file" name="avatar" /><br/>
-   Username:<input type="text" name="user"/><br/>
+  <form method="post" action="http://localhost:4513/">
+   Name:<input type="text" name="name" data-help="Your full name!"/><br/>
+   <!--Upload an image as your avatar:<input type="file" name="avatar" /><br/>-->
+   Username:<input type="text" name="user" data-help="Your unique username!"/><br/>
    Password:<input type="password" name="password1"/><br/>
    <!--can be useful to pass hidden types with the form to the server<input type="hidden" name="whatever" value="useful">-->
-   Confirm Password:<input type="password" name="password2"/><br/>
+   Confirm Password:<input type="password" name="password2" data-help="Make sure your passwords match!"/><br/>
    <input type="submit" value="Submit"/>
   </form>
 </div>
+
 
 </body>
 </html>

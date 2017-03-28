@@ -1,5 +1,5 @@
 body {
-  background-color:  black;
+  background-color: gold;
   font-family: monospace;
   color: white;
 }
@@ -76,6 +76,9 @@ input {
   color: white;
   text-align:center;
 }
+.help {
+  text-align: center;
+}
 
 /*voting page*/
 div#hippo {
@@ -121,4 +124,11 @@ p#intro {
   text-align: center;
   text-shadow: blue;
   font-size: 200%;
+}
+/*experimental*/
+.dot {
+  height: 8px; width: 8px;
+  border-radius: 4px; /* rounds corners */
+  background: blue;
+  position: absolute;
 }
