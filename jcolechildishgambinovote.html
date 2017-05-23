@@ -3,6 +3,8 @@
   lang="en-GB" xml:lang="en-GB">
 <head>
 <script src="file.js"></script>
+
+
 <link href="file.css" rel="stylesheet" type="text/css"/>
 <meta charset="UTF-8"/>
 <title>Dare2Compare</title>
@@ -28,6 +30,23 @@
    <!--<input type="text" name="post" data-help="What do you think about this match up?" id="posting"/><br/>-->
    <input type="submit" value="Post"/>
   </form>
+</br></br>
+<!--<script id ="entries" type = "text/x-handlebarss-template">-->
+  <!--<table id="battles">
+    <tr class = "entry">
+      <td class="user">{{user}}</td>
+      <td class="post">{{post}}</td>
+    </tr>
+  </table>-->
 
+  <table id="battles">
+    {{#each post}}
+    <tr class = "entry">
+      <!--<td class="user">{{user}}</td>-->
+      <td class="post">{{this}}</td>
+    </tr>
+    {{/each}}
+  </table>
+<!--</script>-->
 </body>
 </html>
