@@ -7,7 +7,7 @@ var b = document.querySelector("body");
 //b.addEventListener("keydown", nightmode);
 //b.addEventListener("keyup", daymode);
 //allows drawing of dots
-addEventListener("click", whiteboard);
+//addEventListener("click", whiteboard);
 //gives help for filling form out
 var help = document.querySelector("#help");
 var fields = document.querySelectorAll("input");
@@ -16,9 +16,9 @@ for (var i = 0; i < fields.length; i++) {
   fields[i].addEventListener("blur", noHelp);
 }
 
-setTimeout(function() {
+/*setTimeout(function() {
   document.body.style.background = "black";
-}, 1000);
+}, 1000);*/
 /*var wave = document.querySelector("#wave");
 wave.addEventListener('click', move);*/
 /*var title=document.querySelector("h1");
